@@ -1,0 +1,23 @@
+# Core ML dependencies
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+
+transformers==4.35.2
+sentencepiece
+protobuf==4.25.1
+
+# Web UI
+streamlit==1.29.0
+
+# Utilities
+pandas
+numpy
+scikit-learn
+matplotlib
+tqdm
+requests
+feedparser
+
+# Optional for GPU (ignore if CPU user)
+# --extra-index-url https://download.pytorch.org/whl/cu118
